@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+
+import DCNavBar from './components/NavBar.js';
+import Footer from './components/Footer.js';
+import Article from './components/Article.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-background">
+      <DCNavBar></DCNavBar>
+      <Article><h1>About us</h1></Article>
+      <Article><h1>Call me</h1></Article>
+      <Article><h1>Que es el tarot</h1></Article>
+      <Article><h1>Location</h1></Article>
+      <Footer></Footer>
     </div>
-  );
+  )
 }
 
 export default App;

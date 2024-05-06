@@ -7,11 +7,26 @@ import Article from './components/Article.js'
 function App() {
   return (
     <div className="App bg-background">
-      <DCNavBar></DCNavBar>
-      <Article><h1>About us</h1></Article>
-      <Article><h1>Call me</h1></Article>
-      <Article><h1>Que es el tarot</h1></Article>
-      <Article><h1>Location</h1></Article>
+      <DCNavBar />
+
+      <Article
+        title='Sobre Nosotras'
+      ></Article>
+
+      <Article
+        decorationIsOnLeft
+        title='Contactanos'
+      ></Article>
+
+      <Article
+        decorationIsNotImage
+        title='Que es el tarot?'
+      ></Article>
+
+      <Article
+        title='Visitanos'
+      ></Article>
+
       <Footer></Footer>
     </div>
   )

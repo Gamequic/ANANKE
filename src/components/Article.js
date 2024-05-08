@@ -1,12 +1,12 @@
 import React from "react";
 
-const Article = ({ title, content, decorationIsOnLeft, decorationIsNotImage, children }) => {
+const Article = ({ title, content, img, decorationIsOnLeft, decorationIsNotImage, children }) => {
     return (
         <article className={"flex" + (decorationIsOnLeft ? ' flex-row-reverse' : '')}>
             {decorationIsNotImage ? 
                 (<div className="w-1/2 h-auto">{children}</div>)
                 :
-                (<img className="w-1/2 h-auto" src={process.env.PUBLIC_URL + '/photos/default.jpg'} alt="decoration" />)
+                (<img className="w-1/2 h-auto" src={img ? img : process.env.PUBLIC_URL + '/photos/decorations/default.jpg'} alt="decoration" />)
             }
             <div className="flex justify-center items-center w-full flex-col">
                 <h1 className="text-large">{title ? title : 'Title is undefined'}</h1>

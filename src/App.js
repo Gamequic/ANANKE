@@ -4,6 +4,8 @@ import DCNavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
 import Article from './components/Article.js'
 
+import Content from './info.js';
+
 function App() {
   return (
     <div className="App bg-background">
@@ -11,6 +13,8 @@ function App() {
 
       <Article
         title='Sobre Nosotras'
+        content={Content.Spanish.AboutUs}
+        img={process.env.PUBLIC_URL + '/photos/decorations/aboutUs.jpg'}
       ></Article>
 
       <Article

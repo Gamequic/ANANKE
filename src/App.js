@@ -5,6 +5,7 @@ import Footer from './components/Footer.js';
 import Article from './components/Article.js'
 import ButtonSocialMedia from './components/ButtonSocialMedia/ButtonSocialMedia.js';
 import Map from './components/Map.js';
+import CardsTarot from './components/Cards/Cards.js';
 
 import Content from './info.js';
 
@@ -44,10 +45,13 @@ function App() {
         decorationIsNotImage
         title='Que es el tarot?'
         content={Content.Spanish.WhatisTarot}
-      ></Article>
+      >
+        <CardsTarot />
+      </Article>
 
       <Article
         decorationIsNotImage
+        decorationIsOnLeft
         title='Visitanos'
       >
         <Map></Map>

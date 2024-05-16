@@ -7,6 +7,7 @@ Ananké is a small entrepreneurshipent dedicated to mental health and "magic", I
 * [X] Info - Preview
 * [X] Photos - Preview
 * [ ] Widgets
+* [ ] Widget google maps
 * [ ] Styling
 * [ ] Responsive Desig
   * [ ] Styling

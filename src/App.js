@@ -15,13 +15,29 @@ function App() {
       <DCNavBar />
 
       <Article
+        decorationIsOnLeft
         title='Sobre Nosotras'
         content={Content.Spanish.AboutUs}
         img={process.env.PUBLIC_URL + '/photos/decorations/aboutUs.jpg'}
       ></Article>
 
       <Article
+        decorationIsNotImage
+        title='Que es el tarot?'
+        content={Content.Spanish.WhatisTarot}
+      >
+        <CardsTarot />
+      </Article>
+
+      <Article
+        decorationIsNotImage
         decorationIsOnLeft
+        title='Visitanos'
+      >
+        <Map></Map>
+      </Article>
+
+      <Article
         title='Contactanos'
         content={(
           <div className="flex">
@@ -41,23 +57,7 @@ function App() {
         )}
       ></Article>
 
-      <Article
-        decorationIsNotImage
-        title='Que es el tarot?'
-        content={Content.Spanish.WhatisTarot}
-      >
-        <CardsTarot />
-      </Article>
-
-      <Article
-        decorationIsNotImage
-        decorationIsOnLeft
-        title='Visitanos'
-      >
-        <Map></Map>
-      </Article>
-
-      <Footer></Footer>
+      <Footer />
     </div>
   )
 }

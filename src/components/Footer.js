@@ -4,7 +4,7 @@ import ButtonSocialMedia from "./ButtonSocialMedia/ButtonSocialMedia";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-r from-pink-800 to-foreground text-primary-50">
+    <footer className="w-full bg-gradient-to-r from-purple-700 to-purple-950 text-primary-50">
       <div className="flex justify-center items-center h-full flex-col">
         <div className="flex">
           <ButtonSocialMedia

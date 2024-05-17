@@ -2,7 +2,7 @@ import './App.css';
 
 import DCNavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
-import Article from './components/Article.js'
+import Article from './components/Article/Article.js'
 import ButtonSocialMedia from './components/ButtonSocialMedia/ButtonSocialMedia.js';
 import Map from './components/Map.js';
 import CardsTarot from './components/Cards/Cards.js';
@@ -19,6 +19,7 @@ function App() {
         title='Sobre Nosotras'
         content={Content.Spanish.AboutUs}
         img={process.env.PUBLIC_URL + '/photos/decorations/aboutUs.jpg'}
+        background
       ></Article>
 
       <Article
@@ -33,6 +34,7 @@ function App() {
         decorationIsNotImage
         decorationIsOnLeft
         title='Visitanos'
+        background
       >
         <Map></Map>
       </Article>

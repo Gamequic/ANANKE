@@ -7,7 +7,7 @@ import Logo from "./ButtonSocialMedia/Logo";
 const DCNavBar = () => {
   return (
     <>
-      <Navbar className="w-full bg-gradient-to-r from-foreground to-pink-800 text-primary-50">
+      <Navbar className="w-full bg-gradient-to-r from-purple-700 to-purple-950 text-primary-50">
         <NavbarBrand className="px-unit-2xl">
           <div className="flex justify-center items-center">
             <Logo></Logo>

@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "Cards",
-        "App.js"
+        "App.js",
+        "UI"
     ]
 }

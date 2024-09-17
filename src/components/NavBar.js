@@ -28,6 +28,7 @@ const DCNavBar = () => {
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem className="px-unit-2xl">
             <h1 className="text-large text-white" >ANANKE</h1>
+            <h2 className="text-medium text-white" >Y Zoe Ambar</h2>
           </NavbarItem>
         </NavbarContent>
       </Navbar>

@@ -4,7 +4,6 @@ import DCNavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
 import Article from './components/Article/Article.js'
 import ButtonSocialMedia from './components/ButtonSocialMedia/ButtonSocialMedia.js';
-import Map from './components/Map.js';
 import CardsTarot from './components/Cards/Cards.js';
 
 import Content from './info.js';
@@ -31,15 +30,7 @@ function App() {
       </Article>
 
       <Article
-        decorationIsNotImage
         decorationIsOnLeft
-        title='Visitanos'
-        background
-      >
-        <Map></Map>
-      </Article>
-
-      <Article
         title='Contactanos'
         content={(
           <div className="flex">

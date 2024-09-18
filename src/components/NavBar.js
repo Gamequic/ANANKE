@@ -13,22 +13,33 @@ const DCNavBar = () => {
             <Logo></Logo>
             <ButtonSocialMedia
               img={`${process.env.PUBLIC_URL}/photos/logos/socialMedia/Facebook.svg`}
-              link={'https://www.facebook.com/somosuacj/'}
+              link={'https://www.facebook.com/share/tW1AuDbpccz5jY5g/?mibextid=qi2Omg/'}
             />
             <ButtonSocialMedia
               img={`${process.env.PUBLIC_URL}/photos/logos/socialMedia/Instagram.svg`}
-              link={'https://www.instagram.com/somosuacj/'}
+              link={'https://www.instagram.com/ananke.mediumpsiquica?igsh=cXNtYW9xMDk1N2xz/'}
             />
             <ButtonSocialMedia
-              img={`${process.env.PUBLIC_URL}/photos/logos/socialMedia/YT.svg`}
-              link={'https://www.youtube.com/UACJTV'}
+              img={`${process.env.PUBLIC_URL}/photos/logos/socialMedia/Facebook.svg`}
+              link={'https://www.facebook.com/ZoEambarTarot/'}
+              ZoeAmbar
+            />
+            <ButtonSocialMedia
+              img={`${process.env.PUBLIC_URL}/photos/logos/socialMedia/Instagram.svg`}
+              link={'https://www.instagram.com/zoeambartarot?igsh=MWE1NGRvNmFxM3Fk/'}
+              ZoeAmbar
+            />
+            <ButtonSocialMedia
+              img={`${process.env.PUBLIC_URL}/photos/logos/socialMedia/TikTok.svg`}
+              link={'https://www.tiktok.com/@zoeambartarot?_t=8pmrcnbpKjt&_r=1'}
+              ZoeAmbar
             />
           </div>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem className="px-unit-2xl">
             <h1 className="text-large text-white" >ANANKE</h1>
-            <h2 className="text-medium text-white" >Y Zoe Ambar</h2>
+            <h2 className="text-medium text-ZoeAmbar" >Y Zoe Ambar</h2>
           </NavbarItem>
         </NavbarContent>
       </Navbar>

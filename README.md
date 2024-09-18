@@ -4,14 +4,13 @@ Ananké is a small entrepreneurshipent dedicated to mental health and "magic", I
 
 # Change log
 
-* [X] Info - Preview
-* [X] Photos - Preview
-* [ ] Widgets
-* [ ] Widget google maps
-* [ ] Styling
-* [ ] Responsive Desig
-  * [ ] Styling
-* [ ] Animations
+* [X]  Info - Preview
+* [X]  Photos - Preview
+* [ ]  Social Media
+* [ ]  Styling
+* [ ]  Responsive Desing
+  * [ ]  Styling
+* [ ]  Animations
 
 ## Meaning for each tag on change log
 

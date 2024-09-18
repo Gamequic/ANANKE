@@ -2,6 +2,10 @@
   "name": "paginaananke",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
+=======
+  "homepage": "https://gamequic.github.io/ANANKE/",
+>>>>>>> gh-pages
   "dependencies": {
     "@nextui-org/react": "^2.3.6",
     "@react-google-maps/api": "^2.19.3",
@@ -18,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -f"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +45,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "gh-pages": "^6.1.1",
+>>>>>>> gh-pages
     "tailwindcss": "^3.4.3"
   }
 }

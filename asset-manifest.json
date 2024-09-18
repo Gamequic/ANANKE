@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ANANKE/static/css/main.e6a56b6b.css",
+    "main.js": "/ANANKE/static/js/main.17bea162.js",
+    "static/js/453.5102ac66.chunk.js": "/ANANKE/static/js/453.5102ac66.chunk.js",
+    "index.html": "/ANANKE/index.html",
+    "main.e6a56b6b.css.map": "/ANANKE/static/css/main.e6a56b6b.css.map",
+    "main.17bea162.js.map": "/ANANKE/static/js/main.17bea162.js.map",
+    "453.5102ac66.chunk.js.map": "/ANANKE/static/js/453.5102ac66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6a56b6b.css",
+    "static/js/main.17bea162.js"
+  ]
+}

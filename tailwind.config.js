@@ -32,6 +32,7 @@ module.exports = {
         dark: {
           layout: {}, // dark theme layout tokens
           colors: {
+            ZoeAmbar: '#d573f0',
             // background: "#cb9eb5", // or DEFAULT
             background: "#1F1F1F",
             foreground: "#cb9eb5", // or 50 to 900 DEFAULT

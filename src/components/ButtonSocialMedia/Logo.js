@@ -2,7 +2,15 @@ import React from "react";
 
 const Logo = () => {
     return (
-        <div className="w-32 h-32 bg-white rounded-full m-4" ></div>
+        <div 
+            style={{
+                width: 64,
+                height: 64,
+                background: 'white',
+                margin: '0.5rem',
+                borderRadius: 32
+            }}
+        ></div>
     )
 }
 
